@@ -10,7 +10,7 @@ def calculadora(num1, num2, op):
     else:
         return 0
 
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 op = input("Digite a operação (+, -, *, /): ")
 print(calculadora(num1, num2, op))
