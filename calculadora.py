@@ -8,7 +8,7 @@ def calculadora(num1, num2, op):
     elif op == "/":
         return num1 / num2
     else:
-        return "Operação inválida"
+        return 0
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
